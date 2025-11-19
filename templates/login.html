@@ -10,8 +10,8 @@
     <h1>Login</h1>
     <input type="text" placeholder="E-mail">
     <input type="text" placeholder="Senha"><br>
+    <button type="button">Fazer Login</button>
 
-    <a href="#direcionar"><button type="button">Fazer Login</button></a>
-    <a href="#direcionar"><button type="button">Criar Conta</button></a>
+    <a href="{{ url_for('create_account') }}"><button type="button">Criar Conta</button></a>
 </body>
 </html>
